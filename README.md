@@ -1,67 +1,51 @@
-<h1 align="center"> 💸 EXPENSE TRACKER 💸 </h1>
+<h1 align="center">ExpenseTracker Pro</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/CustomTkinter-v5.2-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/GUI-CustomTkinter-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data-OpenPyXL-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows" />
 </p>
 
 <p align="center">
-  <b>Stop wondering where your money went. Manage your bag with zero stress. 🚀</b>
-</p>
-
----
-
-## 📸 PREVIEW
-<p align="center">
-  <img src="[PASTE_IMAGE_LINK_HERE]" alt="App Screenshot" width="400">
+  <strong>A streamlined desktop application for local expense management and automated Excel reporting.</strong>
 </p>
 
 ---
 
-## 💎 THE VIBE
-Why use a boring spreadsheet when you can use a tracker that actually looks good? 💅
+## 📌 Project Overview
 
-* **Aesthetic UI:** Built with `CustomTkinter` for that premium dark/light mode feel. 🌗
-* **Auto-Magic Excel:** Your data is instantly formatted and saved. No manual work. 📊
-* **Safe & Secure:** Saves to your system's `AppData` so your files are protected from Windows permission drama. 🛡️
+ExpenseTracker is a lightweight Python application designed to simplify personal financial logging. By leveraging a modern graphical interface, it allows users to record transactions and automatically generate structured Excel reports for long-term data analysis.
 
 ---
 
-<h1> 🚀 QUICK START </h1>
+## 🚀 Key Features
 
-### 1. The Input
-Drop the **Description** (the tea) and the **Amount** (the damage) into the boxes.
-
-### 2. The Save
-Hit **Add Expense** to lock it into your history. 🔒
-
-### 3. The Total
-The app live-calculates your spending so you know exactly when to stop spending. 📉
+* **Modern UI/UX:** Developed with `CustomTkinter` for a native, high-DPI desktop experience.
+* **Persistent Storage:** Automatically initializes and updates a local database in `.xlsx` format.
+* **Automated Calculations:** Features real-time sum updates and Excel-native formula integration.
+* **Secure Pathing:** Utilizes `AppData/Roaming` protocols to ensure write permissions and data persistence across sessions.
+* **Theme Synchronization:** Supports both Light and Dark modes for optimized visibility.
 
 ---
 
-<h1> 📂 WHERE IS MY DATA? </h1>
+## 🛠️ System Architecture
 
-Your expenses live in a professional Excel sheet tucked away in your system. To find the file instantly:
 
-1.  Press `Win + R` ⌨️
-2.  Paste this: `%appdata%\ExpenseTracker`
-3.  Hit **Enter** and boom—there’s your `my_expenses.xlsx`! 📁
 
----
-
-<h1> 🛠️ TECH STACK </h1>
-
-| Tool | Purpose |
-| :--- | :--- |
-| **Python** | The Brains 🧠 |
-| **CustomTkinter** | The Beauty ✨ |
-| **Openpyxl** | The Excel Engine 📑 |
-| **Pillow** | Icon Magic 🎨 |
+The application follows a modular structure to separate UI logic from file I/O operations:
+* **Frontend:** CustomTkinter & Tkinter for responsive event handling.
+* **Data Layer:** OpenPyXL manages the workbook lifecycle (Load/Edit/Save).
+* **Path Management:** Uses `os` and `sys` to handle absolute paths for both script execution and PyInstaller-frozen binaries.
 
 ---
 
-<p align="center">
-  <i>Created with ❤️ for the financial glow-up era.</i>
-</p>
+## 📂 Data Access
+
+To comply with Windows security standards, the application stores the expense ledger in the user's protected application data folder.
+
+**To access the Excel file manually:**
+1. Press `Win + R`.
+2. Enter the following command:
+   ```bash
+   %appdata%\ExpenseTracker
