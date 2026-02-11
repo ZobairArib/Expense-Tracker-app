@@ -58,7 +58,7 @@ To ensure the application functions correctly, the following core libraries must
    ```bash
    pip install customtkinter openpyxl Pillow
 
-   <h1> 🛠️ TECH STACK </h1>
+## 🛠️ Tech Stack
 
 | Tool | Purpose |
 | :--- | :--- |
