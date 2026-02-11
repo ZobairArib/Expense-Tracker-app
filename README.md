@@ -17,6 +17,8 @@
 
 ExpenseTracker is a lightweight Python application designed to simplify personal financial logging. By leveraging a modern graphical interface, it allows users to record transactions and automatically generate structured Excel reports for long-term data analysis.
 
+
+
 ---
 
 ## 🚀 Key Features
@@ -24,28 +26,16 @@ ExpenseTracker is a lightweight Python application designed to simplify personal
 * **Modern UI/UX:** Developed with `CustomTkinter` for a native, high-DPI desktop experience.
 * **Persistent Storage:** Automatically initializes and updates a local database in `.xlsx` format.
 * **Automated Calculations:** Features real-time sum updates and Excel-native formula integration.
-* **Secure Pathing:** Utilizes `AppData/Roaming` protocols to ensure write permissions and data persistence across sessions.
+* **Secure Pathing:** Utilizes `AppData/Roaming` protocols to ensure write permissions and data integrity.
 * **Theme Synchronization:** Supports both Light and Dark modes for optimized visibility.
 
 ---
 
-## 🛠️ System Architecture
+## 📦 Dependency Management
 
+To ensure the application functions correctly, the following core libraries must be installed. You can set up your environment manually via the terminal:
 
-
-The application follows a modular structure to separate UI logic from file I/O operations:
-* **Frontend:** CustomTkinter & Tkinter for responsive event handling.
-* **Data Layer:** OpenPyXL manages the workbook lifecycle (Load/Edit/Save).
-* **Path Management:** Uses `os` and `sys` to handle absolute paths for both script execution and PyInstaller-frozen binaries.
-
----
-
-## 📂 Data Access
-
-To comply with Windows security standards, the application stores the expense ledger in the user's protected application data folder.
-
-**To access the Excel file manually:**
-1. Press `Win + R`.
-2. Enter the following command:
+1. **Open a terminal or command prompt.**
+2. **Execute the following command:**
    ```bash
-   %appdata%\ExpenseTracker
+   pip install customtkinter openpyxl Pillow
