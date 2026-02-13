@@ -48,7 +48,7 @@
 
   <br>
 
-  <sub><i>Interface Overview: Dashboard, Data Entry, and Generated Excel Reports</i></sub>
+ <sub><i>Main Dashboard of ExpenseTracker Pro</i></sub>
 
 </p>
 
