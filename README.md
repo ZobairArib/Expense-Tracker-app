@@ -21,7 +21,7 @@ ExpenseTracker is a lightweight Python application designed to simplify personal
 
 <p align="center">
   <br>
-  <img src="path/to/your/screenshot.png" alt="ExpenseTracker Pro Dashboard" width="700" style="border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);">
+  <img src="screenshots/dashboard.png" alt="ExpenseTracker Pro Dashboard", width="700"> 
   <br>
   <em>The sleek Dark Mode interface of ExpenseTracker Pro</em>
 </p>
