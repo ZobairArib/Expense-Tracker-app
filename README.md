@@ -1,4 +1,4 @@
-<h1 align="center">ExpenseTracker Pro</h1>
+<h1 align="center">ExpenseTracker App</h1>
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-**ExpenseTracker Pro** is a lightweight Python-based solution engineered to simplify personal financial logging. Utilizing a modern graphical interface, the application enables users to record transactions seamlessly while automatically generating structured Excel reports for comprehensive data analysis.
+**ExpenseTracker** is a lightweight Python-based solution engineered to simplify personal financial logging. Utilizing a modern graphical interface, the application enables users to record transactions seamlessly while automatically generating structured Excel reports for comprehensive data analysis.
 
 
 
@@ -49,7 +49,7 @@
   <br>
 
  <p align="center">
-    <sub><i>Main Dashboard of ExpenseTracker Pro</i></sub>
+    <sub><i>Main Dashboard of ExpenseTracker App</i></sub>
   </p>
 
 </p>
