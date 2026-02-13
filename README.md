@@ -150,60 +150,17 @@ To ensure the application functions correctly, the following core libraries must
 
 
 
-
-
-
-
-## 🛠️ Tech Stack
-
-
-
-
-
-
+<h1> 🛠️ TECH STACK </h1>
 
 | Tool | Purpose |
-
-
-
 | :--- | :--- |
-
-
-
 | **Python** | The Brains 🧠 |
-
-
-
 | **CustomTkinter** | The Beauty ✨ |
-
-
-
 | **Openpyxl** | The Excel Engine 📑 |
-
-
-
 | **Pillow** | Icon Magic 🎨 |
-
-
-
-
-
-
 
 ---
 
-
-
-
-
-
-
 <p align="center">
-
-
-
   <i>Created with ❤️ for the financial glow-up era.</i>
-
-
-
 </p>
