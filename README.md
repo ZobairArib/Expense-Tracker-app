@@ -116,38 +116,27 @@ In alignment with Windows security standards, the application stores the expense
 
    %appdata%\ExpenseTracker
 
+---
 
 
 ## 📦 Dependency Management
 
-
-
-
-
-
-
 To ensure the application functions correctly, the following core libraries must be installed. You can set up your environment manually via the terminal:
-
-
-
-
-
 
 
 1. **Open a terminal or command prompt.**
 
 
-
 2. **Execute the following command:**
-
 
 
    ```bash
 
-
-
    pip install customtkinter openpyxl Pillow
 
+
+
+---
 
 
 <h1> 🛠️ TECH STACK </h1>
