@@ -13,55 +13,51 @@
 
 ---
 
-
 ## 📌 Project Overview
 
-ExpenseTracker is a lightweight Python application designed to simplify personal financial logging. By leveraging a modern graphical interface, it allows users to record transactions and automatically generate structured Excel reports for long-term data analysis.
+**ExpenseTracker Pro** is a lightweight Python-based solution engineered to simplify personal financial logging. Utilizing a modern graphical interface, the application enables users to record transactions seamlessly while automatically generating structured Excel reports for comprehensive data analysis.
 
 <p align="center">
   <br>
-  <img src="screenshots/Screenshot 2026-02-13 121607.png" width="31%" style="border-radius:    8px;" />
+  <img src="screenshots/Screenshot 2026-02-13 121607.png" width="31%" style="border-radius: 8px;" />
   <img src="screenshots/Screenshot 2026-02-13 121617.png" width="31%" style="border-radius: 8px;" />
   <img src="screenshots/Screenshot 2026-02-13 121647.png" width="31%" style="border-radius: 8px;" />
   <br>
-  <sub><i>Visualizing the Interface, Data Entry, and Generated Reports</i></sub>
+  <sub><i>Interface Overview: Dashboard, Data Entry, and Generated Excel Reports</i></sub>
 </p>
 
 ---
 
 ## 🚀 Key Features
 
-* **Modern UI/UX:** Developed with `CustomTkinter` for a native, high-DPI desktop experience.
-* **Persistent Storage:** Automatically initializes and updates a local database in `.xlsx` format.
-* **Automated Calculations:** Features real-time sum updates and Excel-native formula integration.
-* **Secure Pathing:** Utilizes `AppData/Roaming` protocols to ensure write permissions and data persistence across sessions.
-* **Theme Synchronization:** Supports both Light and Dark modes for optimized visibility.
+* **Modern UI/UX:** Built with `CustomTkinter` to provide a high-DPI, responsive desktop experience.
+* **Persistent Storage:** Automates the initialization and maintenance of a local `.xlsx` database.
+* **Automated Analytics:** Features real-time calculation updates and native Excel formula integration.
+* **Secure Pathing:** Implements `AppData/Roaming` protocols to ensure data persistence and system-wide write permissions.
+* **Adaptive Theming:** Native support for Light and Dark modes to optimize user visibility.
 
 ---
-
 
 ## 🛠️ System Architecture
 
-The application follows a modular structure to separate UI logic from file I/O operations:
-* **Frontend:** CustomTkinter & Tkinter for responsive event handling.
-* **Data Layer:** OpenPyXL manages the workbook lifecycle (Load/Edit/Save).
-* **Path Management:** Uses `os` and `sys` to handle absolute paths for both script execution and PyInstaller-frozen binaries.
+The application utilizes a modular architecture to decouple UI logic from file I/O operations:
+
+* **Frontend Layer:** Employs `CustomTkinter` and `Tkinter` for event-driven interaction.
+* **Data Layer:** Leverages `OpenPyXL` to manage the workbook lifecycle (Load/Edit/Save).
+* **Path Management:** Utilizes `os` and `sys` modules to resolve absolute paths for both source execution and PyInstaller-frozen binaries.
 
 ---
-
 
 ## 📂 Data Access
 
-To comply with Windows security standards, the application stores the expense ledger in the user's protected application data folder.
+In alignment with Windows security standards, the application stores the expense ledger within the user's protected application data directory.
 
 **To access the Excel file manually:**
 1. Press `Win + R`.
-2. Enter the following command:
+2. Execute the following command:
    ```bash
    %appdata%\ExpenseTracker
 
----
-   
 ## 📦 Dependency Management
 
 
@@ -81,6 +77,7 @@ To ensure the application functions correctly, the following core libraries must
 
 
 ## 🛠️ Tech Stack
+
 
 
 | Tool | Purpose |
