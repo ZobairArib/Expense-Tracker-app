@@ -49,7 +49,7 @@
   <br>
 
  <p align="center">
-    <sub><i>Main Dashboard, Data Entry, and Excel Reports</i></sub>
+    <sub><i>Main Dashboard of ExpenseTracker Pro</i></sub>
   </p>
 
 </p>
