@@ -48,7 +48,9 @@
 
   <br>
 
- <sub><i>Main Dashboard of ExpenseTracker Pro</i></sub>
+ <p align="center">
+    <sub><i>Main Dashboard, Data Entry, and Excel Reports</i></sub>
+  </p>
 
 </p>
 
