@@ -136,8 +136,6 @@ To ensure the application functions correctly, the following core libraries must
 
    pip install customtkinter openpyxl Pillow
 
-
-
 ---
 
 
