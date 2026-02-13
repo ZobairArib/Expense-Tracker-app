@@ -13,6 +13,7 @@
 
 ---
 
+
 ## 📌 Project Overview
 
 ExpenseTracker is a lightweight Python application designed to simplify personal financial logging. By leveraging a modern graphical interface, it allows users to record transactions and automatically generate structured Excel reports for long-term data analysis.
@@ -26,6 +27,8 @@ ExpenseTracker is a lightweight Python application designed to simplify personal
   <sub><i>Visualizing the Interface, Data Entry, and Generated Reports</i></sub>
 </p>
 
+---
+
 ## 🚀 Key Features
 
 * **Modern UI/UX:** Developed with `CustomTkinter` for a native, high-DPI desktop experience.
@@ -36,6 +39,7 @@ ExpenseTracker is a lightweight Python application designed to simplify personal
 
 ---
 
+
 ## 🛠️ System Architecture
 
 The application follows a modular structure to separate UI logic from file I/O operations:
@@ -44,6 +48,7 @@ The application follows a modular structure to separate UI logic from file I/O o
 * **Path Management:** Uses `os` and `sys` to handle absolute paths for both script execution and PyInstaller-frozen binaries.
 
 ---
+
 
 ## 📂 Data Access
 
@@ -54,6 +59,13 @@ To comply with Windows security standards, the application stores the expense le
 2. Enter the following command:
    ```bash
    %appdata%\ExpenseTracker
+
+---
+   
+## 📦 Dependency Management
+
+
+
 To ensure the application functions correctly, the following core libraries must be installed. You can set up your environment manually via the terminal:
 
 
@@ -71,7 +83,6 @@ To ensure the application functions correctly, the following core libraries must
 ## 🛠️ Tech Stack
 
 
-
 | Tool | Purpose |
 
 | :--- | :--- |
@@ -83,6 +94,11 @@ To ensure the application functions correctly, the following core libraries must
 | **Openpyxl** | The Excel Engine 📑 |
 
 | **Pillow** | Icon Magic 🎨 |
+
+
+
+---
+
 
 
 <p align="center">
