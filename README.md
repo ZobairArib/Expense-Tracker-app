@@ -40,11 +40,11 @@
 
   <br>
 
-  <img src="screenshots/Screenshot 2026-02-13 121607.png" width="31%" style="border-radius: 8px;" />
+  <img src="screenshots/Screenshot_lightmode.png" width="31%" style="border-radius: 8px;" />
 
-  <img src="screenshots/Screenshot 2026-02-13 121617.png" width="31%" style="border-radius: 8px;" />
+  <img src="screenshots/Screenshot_darkmode.png" width="31%" style="border-radius: 8px;" />
 
-  <img src="screenshots/Screenshot 2026-02-13 121647.png" width="31%" style="border-radius: 8px;" />
+  <img src="screenshots/Screenshot_excel.png" width="31%" style="border-radius: 8px;" />
 
   <br>
 
