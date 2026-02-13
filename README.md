@@ -25,7 +25,6 @@ ExpenseTracker is a lightweight Python application designed to simplify personal
   <br>
   <sub><i>Visualizing the Interface, Data Entry, and Generated Reports</i></sub>
 </p>
----
 
 ## 🚀 Key Features
 
