@@ -13,17 +13,17 @@
 
 ---
 
----
-
 ## 📌 Project Overview
 
 ExpenseTracker is a lightweight Python application designed to simplify personal financial logging. By leveraging a modern graphical interface, it allows users to record transactions and automatically generate structured Excel reports for long-term data analysis.
 
 <p align="center">
   <br>
-  <img src="screenshots/dashboard.png" alt="ExpenseTracker Pro Dashboard", width="700"> 
+  <img src="screenshots/Screenshot 2026-02-13 121607.png" width="31%" style="border-radius:    8px;" />
+  <img src="screenshots/Screenshot 2026-02-13 121617.png" width="31%" style="border-radius: 8px;" />
+  <img src="screenshots/Screenshot 2026-02-13 121647.png" width="31%" style="border-radius: 8px;" />
   <br>
-  <em>The sleek Dark Mode interface of ExpenseTracker Pro</em>
+  <sub><i>Visualizing the Interface, Data Entry, and Generated Reports</i></sub>
 </p>
 ---
 
@@ -38,8 +38,6 @@ ExpenseTracker is a lightweight Python application designed to simplify personal
 ---
 
 ## 🛠️ System Architecture
-
-
 
 The application follows a modular structure to separate UI logic from file I/O operations:
 * **Frontend:** CustomTkinter & Tkinter for responsive event handling.
@@ -57,26 +55,3 @@ To comply with Windows security standards, the application stores the expense le
 2. Enter the following command:
    ```bash
    %appdata%\ExpenseTracker
-## 📦 Dependency Management
-
-To ensure the application functions correctly, the following core libraries must be installed. You can set up your environment manually via the terminal:
-
-1. **Open a terminal or command prompt.**
-2. **Execute the following command:**
-   ```bash
-   pip install customtkinter openpyxl Pillow
-
-## 🛠️ Tech Stack
-
-| Tool | Purpose |
-| :--- | :--- |
-| **Python** | The Brains 🧠 |
-| **CustomTkinter** | The Beauty ✨ |
-| **Openpyxl** | The Excel Engine 📑 |
-| **Pillow** | Icon Magic 🎨 |
-
----
-
-<p align="center">
-  <i>Created with ❤️ for the financial glow-up era.</i>
-</p>
