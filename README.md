@@ -54,3 +54,39 @@ To comply with Windows security standards, the application stores the expense le
 2. Enter the following command:
    ```bash
    %appdata%\ExpenseTracker
+To ensure the application functions correctly, the following core libraries must be installed. You can set up your environment manually via the terminal:
+
+
+
+1. **Open a terminal or command prompt.**
+
+2. **Execute the following command:**
+
+   ```bash
+
+   pip install customtkinter openpyxl Pillow
+
+
+
+## 🛠️ Tech Stack
+
+
+
+| Tool | Purpose |
+
+| :--- | :--- |
+
+| **Python** | The Brains 🧠 |
+
+| **CustomTkinter** | The Beauty ✨ |
+
+| **Openpyxl** | The Excel Engine 📑 |
+
+| **Pillow** | Icon Magic 🎨 |
+
+
+<p align="center">
+
+  <i>Created with ❤️ for the financial glow-up era.</i>
+
+</p>
