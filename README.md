@@ -13,10 +13,18 @@
 
 ---
 
+---
+
 ## 📌 Project Overview
 
 ExpenseTracker is a lightweight Python application designed to simplify personal financial logging. By leveraging a modern graphical interface, it allows users to record transactions and automatically generate structured Excel reports for long-term data analysis.
 
+<p align="center">
+  <br>
+  <img src="path/to/your/screenshot.png" alt="ExpenseTracker Pro Dashboard" width="700" style="border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.2);">
+  <br>
+  <em>The sleek Dark Mode interface of ExpenseTracker Pro</em>
+</p>
 ---
 
 ## 🚀 Key Features
