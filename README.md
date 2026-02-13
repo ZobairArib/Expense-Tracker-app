@@ -82,8 +82,6 @@ To ensure the application functions correctly, the following core libraries must
 
 | Tool | Purpose |
 
-| :--- | :--- |
-
 | **Python** | The Brains 🧠 |
 
 | **CustomTkinter** | The Beauty ✨ |
